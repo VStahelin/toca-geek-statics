@@ -37,18 +37,38 @@
     "id": 3,
     "title": "Capacete Cosplay",
     "category": "Props",
-    "description": "Capacete personalizado para cosplay com detalhes impressionantes. Perfeito para eventos e convenções.",
+    "description": "Capacete personalizado para cosplay com detalhes impressionantes. Perfeito para eventos e convenções. Este projeto demonstra nossa capacidade de criar props complexos com acabamento profissional.",
     "images": [
       {
         "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png",
-        "alt": "Capacete cosplay",
+        "alt": "Capacete cosplay - vista frontal",
         "is_primary": true
+      },
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
+        "alt": "Capacete cosplay - vista lateral esquerda",
+        "is_primary": false
+      },
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
+        "alt": "Capacete cosplay - vista lateral direita",
+        "is_primary": false
+      },
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+        "alt": "Capacete cosplay - detalhes internos",
+        "is_primary": false
+      },
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
+        "alt": "Capacete cosplay - vista superior",
+        "is_primary": false
       }
     ],
     "tags": ["cosplay", "props", "capacete", "PLA"],
     "date": "2024-02-01",
     "is_highlighted": true,
-    "instagram_url": "https://www.instagram.com/p/example3"
+    "instagram_url": "https://www.instagram.com/tocageekoficial/"
   },
   {
     "id": 4,
