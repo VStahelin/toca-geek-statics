@@ -56,13 +56,8 @@ jobs:
   deploy-site:
     needs: update-site-map
     runs-on: ubuntu-latest
-    # Só faz deploy se houve mudanças no site_map ou se há mudanças em arquivos relevantes
-    if: |
-      needs.update-site-map.outputs.changed == 'true' ||
-      contains(github.event.head_commit.modified, 'data/') ||
-      contains(github.event.head_commit.modified, 'images/') ||
-      contains(github.event.head_commit.added, 'data/') ||
-      contains(github.event.head_commit.added, 'images/')
+    # Sempre faz deploy após atualizar o site_map (ou se houver mudanças em arquivos estáticos)
+    if: always() && (needs.update-site-map.outputs.changed == 'true' || needs.update-site-map.result == 'success')
     permissions:
       contents: write
       pages: write
