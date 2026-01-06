@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   update-site-map:
     runs-on: ubuntu-latest
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -31,10 +36,10 @@ jobs:
         run: |
           if git diff --quiet data/site_map.json; then
             echo "site_map.json has not changed."
-            echo "::set-output name=changed::false"
+            echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "site_map.json has changed."
-            echo "::set-output name=changed::true"
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit and push changes if site_map.json is modified
@@ -44,9 +49,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add data/site_map.json
           git commit -m "Update site_map.json"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
   call-deploy-site-source:
     needs: update-site-map
