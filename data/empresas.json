@@ -4,8 +4,8 @@
     "name": "Jägermeister",
     "logo": "https://vstahelin.github.io/toca-geek-statics/images/empresas/jagermeister_logo.png",
     "website": "https://lam.jagermeister.com/pt-BR",
-    "short_description": "Modelagem e confecção de cervo em 3D em grande escala para stand no Cabana Club - Praia do Rosa.",
-    "long_description": "Em parceria com a ArtUp, desenvolvemos um projeto completo de modelagem personalizada, impressão 3D em grande escala e pintura personalizada de um cervo para o stand da Jägermeister no Cabana Club na Praia do Rosa. O projeto foi executado com extrema qualidade, resultando em uma peça impressionante que se destacou no evento.",
+    "short_description": "Escultura icônica em 3D de grande escala para ativação de marca no Cabana Club.",
+    "long_description": "Transformamos o símbolo máximo da Jägermeister em uma peça física monumental. O projeto envolveu a engenharia de modelagem 3D detalhada, impressão de grande formato e uma pintura artística personalizada. A escultura foi o ponto focal do stand no Cabana Club (Praia do Rosa), unindo tecnologia aditiva e acabamento premium para gerar alto impacto visual e engajamento do público.",
     "order": 1
   },
   {
@@ -13,8 +13,8 @@
     "name": "ArtUp Comunicação Visual",
     "logo": "https://vstahelin.github.io/toca-geek-statics/images/empresas/artup_logo.jpg",
     "website": "https://artupcomunicacaovisual.com.br/",
-    "short_description": "Parceria na modelagem e confecção de cervo em 3D em grande escala para projeto Jägermeister.",
-    "long_description": "Trabalhamos em parceria com a ArtUp na criação de um cervo em 3D em grande escala para o stand da Jägermeister. O projeto envolveu modelagem personalizada completa, impressão 3D em grande escala e pintura artística personalizada, resultando em uma peça de extrema qualidade que foi destaque no Cabana Club na Praia do Rosa.",
+    "short_description": "Parceria técnica em manufatura aditiva e cenografia para projetos de alto padrão.",
+    "long_description": "Atuamos como braço tecnológico da ArtUp na execução de projetos cenográficos complexos. Unindo o know-how de comunicação visual deles com nossa expertise em impressão 3D e acabamento artístico, viabilizamos a produção de peças de grande escala com precisão geométrica. O case Jägermeister exemplifica essa sinergia: entregamos uma solução completa de engenharia 3D, da concepção à pintura final.",
     "order": 2
   }
 ]
