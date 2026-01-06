@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Figura Anime",
+    "category": "Colecionável",
+    "description": "Figura personalizada de personagem de anime impressa em alta qualidade",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
+        "alt": "Figura anime frontal",
+        "is_primary": true
+      }
+    ],
+    "tags": ["anime", "colecionável", "figura", "PLA"],
+    "date": "2024-01-15",
+    "is_highlighted": true
+  },
+  {
+    "id": 2,
+    "title": "Miniatura Dragão",
+    "category": "RPG",
+    "description": "Miniatura de dragão para jogos de RPG de mesa",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
+        "alt": "Miniatura dragão",
+        "is_primary": true
+      }
+    ],
+    "tags": ["RPG", "miniatura", "dragão", "resina"],
+    "date": "2024-01-20",
+    "is_highlighted": true
+  },
+  {
+    "id": 3,
+    "title": "Capacete Cosplay",
+    "category": "Props",
+    "description": "Capacete personalizado para cosplay com detalhes impressionantes",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png",
+        "alt": "Capacete cosplay",
+        "is_primary": true
+      }
+    ],
+    "tags": ["cosplay", "props", "capacete", "PLA"],
+    "date": "2024-02-01",
+    "is_highlighted": true
+  },
+  {
+    "id": 4,
+    "title": "Logo Personalizado",
+    "category": "Visual",
+    "description": "Display de marca personalizado para comunicação visual",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+        "alt": "Logo personalizado",
+        "is_primary": true
+      }
+    ],
+    "tags": ["visual", "logo", "display", "PLA"],
+    "date": "2024-02-10",
+    "is_highlighted": false
+  },
+  {
+    "id": 5,
+    "title": "Estatueta Mech",
+    "category": "Colecionável",
+    "description": "Estatueta detalhada de mecha impressa em resina",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
+        "alt": "Estatueta mech",
+        "is_primary": true
+      }
+    ],
+    "tags": ["colecionável", "mech", "resina", "detalhado"],
+    "date": "2024-02-15",
+    "is_highlighted": true
+  },
+  {
+    "id": 6,
+    "title": "Mascote Capivara",
+    "category": "Colecionável",
+    "description": "Mascote personalizado em formato de capivara",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png",
+        "alt": "Mascote capivara",
+        "is_primary": true
+      }
+    ],
+    "tags": ["colecionável", "mascote", "capivara", "PLA"],
+    "date": "2024-02-20",
+    "is_highlighted": true
+  },
+  {
+    "id": 7,
+    "title": "Colecionáveis Personalizados",
+    "category": "Colecionável",
+    "description": "Exemplos de colecionáveis personalizados impressos em 3D",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
+        "alt": "Colecionáveis personalizados",
+        "is_primary": true
+      }
+    ],
+    "tags": ["colecionável", "personalizado", "3D"],
+    "date": "2024-02-25",
+    "is_highlighted": false
+  }
+]
