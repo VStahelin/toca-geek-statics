@@ -165,23 +165,6 @@
   },
   {
     "id": 6,
-    "title": "Mascote Capivara",
-    "category": "Colecionável",
-    "description": "Mascote personalizado em formato de capivara. Design único e charmoso, perfeito para decoração.",
-    "images": [
-      {
-        "url": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png",
-        "alt": "Mascote capivara",
-        "is_primary": true
-      }
-    ],
-    "tags": ["colecionável", "mascote", "capivara", "PLA"],
-    "date": "2025-10-10",
-    "is_highlighted": false,
-    "instagram_url": "https://www.instagram.com/p/example6"
-  },
-  {
-    "id": 7,
     "title": "Colecionáveis Personalizados",
     "category": "Colecionável",
     "description": "Exemplos de colecionáveis personalizados impressos em 3D. Transforme suas ideias em realidade.",
