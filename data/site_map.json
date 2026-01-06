@@ -1,0 +1,25 @@
+{
+    "index.html": "https://vstahelin.github.io/toca-geek-statics/index.html",
+    "README.md": "https://vstahelin.github.io/toca-geek-statics/README.md",
+    "data": {
+        "galeria.json": "https://vstahelin.github.io/toca-geek-statics/data/galeria.json",
+        "site_map.json": "https://vstahelin.github.io/toca-geek-statics/data/site_map.json"
+    },
+    "images": {
+        "capybara-mascot.png": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png",
+        "gallery-dragon.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
+        "gallery-helmet.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png",
+        "gallery-logo.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+        "gallery-mech.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
+        "hero-figure.png": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
+        "service-collectibles.png": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png"
+    },
+    "images\\logos": {
+        "logo-black.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-black.png",
+        "logo-colorful.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-colorful.png",
+        "logo-white.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png"
+    },
+    "scripts": {
+        "map_generator.py": "https://vstahelin.github.io/toca-geek-statics/scripts/map_generator.py"
+    }
+}
