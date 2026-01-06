@@ -17,26 +17,27 @@
         "gallery-logo.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
         "gallery-mech.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
         "hero-figure.png": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
-        "service-collectibles.png": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png"
-    },
-    "images\\empresas": {
-        "artup_logo.jpg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/artup_logo.jpg",
-        "jagermeister_logo.png": "https://vstahelin.github.io/toca-geek-statics/images/empresas/jagermeister_logo.png",
-        "placeholder-empresa.svg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg"
-    },
-    "images\\logos": {
-        "logo-black.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-black.png",
-        "logo-colorful.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-colorful.png",
-        "logo-white.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png"
-    },
-    "images\\projetos": {},
-    "images\\projetos\\automobilismo": {
-        "freio_brembo_1.png": "https://vstahelin.github.io/toca-geek-statics/images/projetos/automobilismo/freio_brembo_1.png"
-    },
-    "images\\projetos\\jager": {
-        "1.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/1.jpg",
-        "2.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/2.jpg",
-        "3.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/3.jpg"
+        "service-collectibles.png": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
+        "empresas": {
+            "artup_logo.jpg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/artup_logo.jpg",
+            "jagermeister_logo.png": "https://vstahelin.github.io/toca-geek-statics/images/empresas/jagermeister_logo.png",
+            "placeholder-empresa.svg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg"
+        },
+        "logos": {
+            "logo-black.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-black.png",
+            "logo-colorful.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-colorful.png",
+            "logo-white.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png"
+        },
+        "projetos": {
+            "automobilismo": {
+                "freio_brembo_1.png": "https://vstahelin.github.io/toca-geek-statics/images/projetos/automobilismo/freio_brembo_1.png"
+            },
+            "jager": {
+                "1.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/1.jpg",
+                "2.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/2.jpg",
+                "3.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/3.jpg"
+            }
+        }
     },
     "scripts": {
         "map_generator.py": "https://vstahelin.github.io/toca-geek-statics/scripts/map_generator.py"

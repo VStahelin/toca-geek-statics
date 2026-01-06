@@ -31,6 +31,8 @@ def generate_json_structure(base_url, root_dir, ignore_patterns):
             continue
 
         relative_dir = os.path.relpath(dirpath, root_dir)
+        # Normaliza separadores de caminho para usar sempre /
+        relative_dir = relative_dir.replace(os.sep, '/')
 
         if should_ignore(relative_dir, ignore_patterns):
             continue
@@ -38,16 +40,23 @@ def generate_json_structure(base_url, root_dir, ignore_patterns):
         if relative_dir == ".":
             current_structure = structure
         else:
-            current_structure = structure.setdefault(relative_dir, {})
+            # Cria estrutura aninhada usando caminho normalizado
+            parts = relative_dir.split('/')
+            current_structure = structure
+            for part in parts:
+                if part:  # Ignora partes vazias
+                    current_structure = current_structure.setdefault(part, {})
 
         for filename in filenames:
             file_path = os.path.join(dirpath, filename)
             relative_path = os.path.relpath(file_path, root_dir)
+            # Normaliza separadores de caminho
+            relative_path = relative_path.replace(os.sep, '/')
 
             if should_ignore(relative_path, ignore_patterns):
                 continue
 
-            url = f"{base_url}/{relative_path.replace(os.sep, '/')}"
+            url = f"{base_url}/{relative_path}"
             current_structure[filename] = url
 
     return structure
