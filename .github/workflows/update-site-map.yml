@@ -1,4 +1,4 @@
-name: Update Site Map and Deploy
+name: Update Site Map
 
 on:
   push:
@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   update-site-map:
@@ -51,27 +49,3 @@ jobs:
           git add data/site_map.json
           git commit -m "chore: update site_map.json [skip ci]"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-
-  deploy-site:
-    needs: update-site-map
-    runs-on: ubuntu-latest
-    # Só faz deploy se o site_map foi atualizado ou se há mudanças em arquivos estáticos
-    # Evita deploy duplicado com o deploy automático do GitHub Pages
-    if: needs.update-site-map.outputs.changed == 'true'
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          force_orphan: false
-          cname: false
