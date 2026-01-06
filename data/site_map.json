@@ -1,45 +1,45 @@
 {
     "index.html": "https://vstahelin.github.io/toca-geek-statics/index.html",
     "README.md": "https://vstahelin.github.io/toca-geek-statics/README.md",
-    "data": {
-        "empresas.json": "https://vstahelin.github.io/toca-geek-statics/data/empresas.json",
-        "faq.json": "https://vstahelin.github.io/toca-geek-statics/data/faq.json",
-        "footer.json": "https://vstahelin.github.io/toca-geek-statics/data/footer.json",
-        "galeria.json": "https://vstahelin.github.io/toca-geek-statics/data/galeria.json",
-        "servicos.json": "https://vstahelin.github.io/toca-geek-statics/data/servicos.json",
-        "site_map.json": "https://vstahelin.github.io/toca-geek-statics/data/site_map.json"
+    "scripts": {
+        "map_generator.py": "https://vstahelin.github.io/toca-geek-statics/scripts/map_generator.py"
     },
     "images": {
-        "blender.gif": "https://vstahelin.github.io/toca-geek-statics/images/blender.gif",
         "capybara-mascot.png": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png",
+        "gallery-logo.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+        "service-collectibles.png": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
+        "blender.gif": "https://vstahelin.github.io/toca-geek-statics/images/blender.gif",
         "gallery-dragon.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
         "gallery-helmet.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png",
-        "gallery-logo.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
-        "gallery-mech.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
         "hero-figure.png": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
-        "service-collectibles.png": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
-        "empresas": {
-            "artup_logo.jpg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/artup_logo.jpg",
-            "jagermeister_logo.png": "https://vstahelin.github.io/toca-geek-statics/images/empresas/jagermeister_logo.png",
-            "placeholder-empresa.svg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg"
-        },
-        "logos": {
-            "logo-black.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-black.png",
-            "logo-colorful.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-colorful.png",
-            "logo-white.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png"
-        },
+        "gallery-mech.png": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
         "projetos": {
             "automobilismo": {
                 "freio_brembo_1.png": "https://vstahelin.github.io/toca-geek-statics/images/projetos/automobilismo/freio_brembo_1.png"
             },
             "jager": {
-                "1.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/1.jpg",
                 "2.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/2.jpg",
+                "1.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/1.jpg",
                 "3.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/3.jpg"
             }
+        },
+        "logos": {
+            "logo-black.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-black.png",
+            "logo-white.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png",
+            "logo-colorful.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-colorful.png"
+        },
+        "empresas": {
+            "placeholder-empresa.svg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg",
+            "jagermeister_logo.png": "https://vstahelin.github.io/toca-geek-statics/images/empresas/jagermeister_logo.png",
+            "artup_logo.jpg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/artup_logo.jpg"
         }
     },
-    "scripts": {
-        "map_generator.py": "https://vstahelin.github.io/toca-geek-statics/scripts/map_generator.py"
+    "data": {
+        "servicos.json": "https://vstahelin.github.io/toca-geek-statics/data/servicos.json",
+        "faq.json": "https://vstahelin.github.io/toca-geek-statics/data/faq.json",
+        "galeria.json": "https://vstahelin.github.io/toca-geek-statics/data/galeria.json",
+        "site_map.json": "https://vstahelin.github.io/toca-geek-statics/data/site_map.json",
+        "footer.json": "https://vstahelin.github.io/toca-geek-statics/data/footer.json",
+        "empresas.json": "https://vstahelin.github.io/toca-geek-statics/data/empresas.json"
     }
 }
