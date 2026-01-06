@@ -34,5 +34,14 @@
     "icon": "cube",
     "image": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
     "is_coming_soon": false
+  },
+  {
+    "id": 5,
+    "order": 5,
+    "title": "Modelagem 3D Personalizada",
+    "description": "Modelagem 3D profissional sob medida. Nossos modeladores especializados transformam suas ideias em modelos prontos para impressão.",
+    "icon": "rocket",
+    "image": "",
+    "is_coming_soon": false
   }
 ]

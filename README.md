@@ -45,7 +45,7 @@ O arquivo `data/galeria.json` contém a estrutura de projetos e fotos. Para adic
 **Estrutura do galeria.json:**
 ```json
 [
-  {
+{
     "id": 1,
     "title": "Nome do Projeto",
     "category": "Categoria",
@@ -71,7 +71,7 @@ O arquivo `data/galeria.json` contém a estrutura de projetos e fotos. Para adic
     git clone git@github.com:VStahelin/toca-geek-statics.git
     cd toca-geek-statics
     ```
-
+   
 2. **Execute o script manualmente (opcional):**
     ```bash
     python scripts/map_generator.py
