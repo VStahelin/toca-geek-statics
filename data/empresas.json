@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Empresa Exemplo",
+    "logo": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg",
+    "website": "https://example.com",
+    "short_description": "Breve descrição da empresa e do trabalho realizado.",
+    "long_description": "História completa da parceria, detalhes do projeto realizado, resultados alcançados e feedback da empresa. Este campo será usado na página dedicada de empresas no futuro.",
+    "order": 1
+  }
+]
