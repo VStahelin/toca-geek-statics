@@ -1,54 +1,96 @@
 # Toca Geek Statics
 
-Este projeto usa **GitHub Pages** para hospedar o conteúdo estático da Toca Geek, com um sistema automatizado para gerar um mapa de arquivos (`site_map.json`). A estrutura gerada inclui arquivos JSON, imagens e outros recursos estáticos do repositório.
+Repositório de conteúdo estático para o site da **Toca Geek**. Este projeto usa **GitHub Pages** para hospedar imagens, dados JSON e outros recursos estáticos, com um sistema automatizado para gerar um mapa de arquivos (`site_map.json`).
 
-## Estrutura do Projeto
+## 📋 Sobre
 
-O arquivo `site_map.json` mapeia os recursos do projeto da seguinte forma:
+Este repositório serve como fonte de dados estáticos para o site [toca-geek-launchpad](https://github.com/VStahelin/toca-geek-launchpad). Ele contém:
 
-- **data**: Arquivos JSON que contêm dados estruturados, incluindo `site_map.json` e `galeria.json`.
-- **images**: Recursos de imagem como `.png`, `.jpg`, `.jpeg`, e `.gif`.
-- **scripts**: Contém o script Python usado para gerar o `site_map.json`.
-- Outros arquivos são listados diretamente na raiz da estrutura.
+- **Galeria de projetos**: Estrutura JSON com projetos e fotos da Toca Geek
+- **Imagens**: Assets visuais dos projetos e logos
+- **Mapa de arquivos**: Gerado automaticamente pelo GitHub Actions
 
-Exemplo da estrutura gerada:
+## 🗂️ Estrutura do Projeto
 
-```json
-{
-    "README.md": "https://vstahelin.github.io/toca-geek-statics/README.md",
-    "images": {
-        "projeto_1.png": "https://vstahelin.github.io/toca-geek-statics/images/projeto_1.png",
-        "projeto_2.jpg": "https://vstahelin.github.io/toca-geek-statics/images/projeto_2.jpg"
-    },
-    "scripts": {
-        "map_generator.py": "https://vstahelin.github.io/toca-geek-statics/scripts/map_generator.py"
-    },
-    "data": {
-        "galeria.json": "https://vstahelin.github.io/toca-geek-statics/data/galeria.json",
-        "site_map.json": "https://vstahelin.github.io/toca-geek-statics/data/site_map.json"
-    }
-}
+```
+toca-geek-statics/
+├── data/
+│   ├── galeria.json      # Estrutura de projetos e fotos
+│   └── site_map.json     # Mapa automático de todos os arquivos
+├── images/
+│   ├── logos/            # Logos da Toca Geek
+│   └── [imagens dos projetos]
+├── scripts/
+│   └── map_generator.py  # Script para gerar site_map.json
+└── .github/workflows/    # GitHub Actions para automação
 ```
 
-## Como Funciona
+## 🚀 Como Funciona
 
-- Sempre que um push é feito para a branch main, uma **GitHub Action** é executada para atualizar o arquivo `site_map.json`. Este arquivo contém URLs apontando para os arquivos hospedados no GitHub Pages.
-- O script responsável por gerar o mapa pode ser encontrado no repositório como `scripts/map_generator.py`.
+### Automação
 
-## Galeria de Projetos
+- **GitHub Actions**: Sempre que um push é feito para a branch `main`, uma workflow é executada que:
+  1. Gera/atualiza o arquivo `site_map.json` automaticamente
+  2. Faz commit e push das mudanças
+  3. Faz deploy no GitHub Pages
 
-O arquivo `data/galeria.json` contém a estrutura de projetos e fotos da Toca Geek. Você pode adicionar novos projetos e fotos futuramente apenas atualizando este arquivo JSON.
+### Galeria de Projetos
 
-## Uso
+O arquivo `data/galeria.json` contém a estrutura de projetos e fotos. Para adicionar novos projetos:
 
-1. Clone o repositório:
+1. Adicione as imagens na pasta `images/`
+2. Atualize o arquivo `data/galeria.json` com as informações do novo projeto
+3. Faça commit e push - o GitHub Actions cuidará do resto!
+
+**Estrutura do galeria.json:**
+```json
+[
+  {
+    "id": 1,
+    "title": "Nome do Projeto",
+    "category": "Categoria",
+    "description": "Descrição do projeto",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/imagem.png",
+        "alt": "Texto alternativo",
+        "is_primary": true
+      }
+    ],
+    "tags": ["tag1", "tag2"],
+    "date": "2024-01-15",
+    "is_highlighted": true
+  }
+]
+```
+
+## 📦 Uso Local
+
+1. **Clone o repositório:**
     ```bash
-    git clone https://github.com/vstahelin/toca-geek-statics.git
+    git clone git@github.com:VStahelin/toca-geek-statics.git
+    cd toca-geek-statics
     ```
-   
-2. Execute o script manualmente (opcional):
+
+2. **Execute o script manualmente (opcional):**
     ```bash
     python scripts/map_generator.py
     ```
 
-3. O arquivo `site_map.json` será atualizado automaticamente em novos pushes, mas você pode executar o script localmente para verificar a estrutura.
+3. **Adicione novos projetos:**
+    - Adicione imagens em `images/`
+    - Atualize `data/galeria.json`
+    - Commit e push
+
+## 🔗 URLs
+
+- **Repositório**: https://github.com/VStahelin/toca-geek-statics
+- **GitHub Pages**: https://vstahelin.github.io/toca-geek-statics/
+- **Galeria JSON**: https://vstahelin.github.io/toca-geek-statics/data/galeria.json
+- **Site Map**: https://vstahelin.github.io/toca-geek-statics/data/site_map.json
+
+## 📝 Notas
+
+- O arquivo `site_map.json` é gerado automaticamente - não edite manualmente
+- As imagens devem ser otimizadas antes de adicionar ao repositório
+- O formato de data no `galeria.json` é `YYYY-MM-DD`
