@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "Toca Geek",
+    "description": "Estúdio de impressão 3D especializado em figuras personalizadas, props de cosplay e peças de engenharia.",
+    "logo": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png"
+  },
+  "address": {
+    "enable": false,
+    "street": "",
+    "neighborhood": "",
+    "city": "",
+    "state": "",
+    "zipCode": "",
+    "country": ""
+  },
+  "contact": {
+    "email": "contato@tocageek.com.br",
+    "phone": "(48) 99999-9999",
+    "whatsapp": "5548999999999"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/tocageekoficial/",
+    "facebook": "",
+    "youtube": "",
+    "linkedin": "",
+    "whatsapp": "5548999999999"
+  }
+}
