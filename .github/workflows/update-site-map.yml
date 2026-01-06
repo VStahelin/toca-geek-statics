@@ -51,6 +51,17 @@ jobs:
           git commit -m "Update site_map.json"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
-  call-deploy-site-source:
+  deploy-site-sources:
     needs: update-site-map
-    uses: ./.github/workflows/deploy-site-source.yml
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
