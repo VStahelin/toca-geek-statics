@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "Quais materiais e cores vocês utilizam?",
+    "answer": "Trabalhamos com uma vasta gama de materiais para atender qualquer necessidade, desde decorativas até funcionais (como PLA, PETG, ABS, Flexíveis/TPU, Wood e Silk). O diferencial é que oferecemos Impressão Multicolor, permitindo peças com várias cores prontas diretamente da máquina, eliminando a necessidade de pintura em muitos casos e garantindo um acabamento impecável e vibrante."
+  },
+  {
+    "id": 2,
+    "question": "Como funciona o passo a passo do meu pedido?",
+    "answer": "Nosso processo é dividido em 8 etapas para sua segurança: 1. Contato inicial; 2. Validação de viabilidade técnica; 3. Envio do orçamento; 4. Pagamento de sinal (50%) para início da produção; 5. Refinamento do projeto com acompanhamento personalizado; 6. Aprovação final do modelo digital; 7. Impressão 3D; 8. Acabamento (lixamento e pintura, se contratado)."
+  },
+  {
+    "id": 3,
+    "question": "Qual a diferença entre a impressão em PLA e em Resina?",
+    "answer": "O PLA é um termoplástico ideal para peças maiores, resistentes ou multicoloridas. A Resina é focada em altíssima resolução e detalhes minuciosos (escala micrométrica), sendo a escolha perfeita para miniaturas de RPG e colecionáveis onde as camadas são imperceptíveis."
+  },
+  {
+    "id": 4,
+    "question": "Quanto tempo demora para finalizar um projeto?",
+    "answer": "O prazo varia conforme a complexidade. Projetos simples levam de 3 a 5 dias úteis. Projetos que envolvem modelagem personalizada ou acabamento artístico manual podem levar de 7 a 15 dias úteis. O cronograma exato é definido na etapa de orçamento."
+  },
+  {
+    "id": 5,
+    "question": "Vocês fazem modelagem 3D do zero?",
+    "answer": "Sim! Se você não possui o arquivo digital, nossa equipe de modeladores transforma sua ideia em um projeto 3D. Você acompanha o processo de refinamento e só iniciamos a impressão após a sua aprovação total do modelo."
+  },
+  {
+    "id": 6,
+    "question": "As peças são resistentes a sol e calor?",
+    "answer": "Depende do material. Para uso interno e decorativo, o PLA é excelente. Para peças que ficarão expostas ao sol, dentro de veículos ou que exijam esforço mecânico, recomendamos materiais como PETG ou ABS. Analisamos a necessidade de uso na etapa de viabilidade."
+  },
+  {
+    "id": 7,
+    "question": "Como é calculado o valor do projeto?",
+    "answer": "O orçamento considera o tempo de impressão, volume de material, complexidade da modelagem e o nível de pós-processamento solicitado. Trabalhamos com o modelo de 50% de entrada para garantir sua reserva na fila de produção e os 50% restantes na entrega/envio."
+  },
+  {
+    "id": 8,
+    "question": "Como solicito um orçamento?",
+    "answer": "Basta nos chamar no WhatsApp ou E-mail. Envie sua ideia, referências ou o arquivo (.STL/.OBJ) se já possuir. Em até 24h úteis, realizamos a validação técnica e enviamos a proposta detalhada."
+  },
+  {
+    "id": 9,
+    "question": "Vocês entregam para todo o Brasil? A peça chega segura?",
+    "answer": "Sim, enviamos para todo o país. Utilizamos embalagens de alta proteção com múltiplas camadas de amortecimento. Todos os envios possuem seguro e código de rastreio, garantindo que sua peça chegue em perfeito estado."
+  }
+]
