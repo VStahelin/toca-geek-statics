@@ -1,11 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Empresa Exemplo",
-    "logo": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg",
-    "website": "https://example.com",
-    "short_description": "Breve descrição da empresa e do trabalho realizado.",
-    "long_description": "História completa da parceria, detalhes do projeto realizado, resultados alcançados e feedback da empresa. Este campo será usado na página dedicada de empresas no futuro.",
+    "name": "Jägermeister",
+    "logo": "https://vstahelin.github.io/toca-geek-statics/images/empresas/jagermeister_logo.png",
+    "website": "https://lam.jagermeister.com/pt-BR",
+    "short_description": "Modelagem e confecção de cervo em 3D em grande escala para stand no Cabana Club - Praia do Rosa.",
+    "long_description": "Em parceria com a ArtUp, desenvolvemos um projeto completo de modelagem personalizada, impressão 3D em grande escala e pintura personalizada de um cervo para o stand da Jägermeister no Cabana Club na Praia do Rosa. O projeto foi executado com extrema qualidade, resultando em uma peça impressionante que se destacou no evento.",
     "order": 1
+  },
+  {
+    "id": 2,
+    "name": "ArtUp Comunicação Visual",
+    "logo": "https://vstahelin.github.io/toca-geek-statics/images/empresas/artup_logo.jpg",
+    "website": "https://artupcomunicacaovisual.com.br/",
+    "short_description": "Parceria na modelagem e confecção de cervo em 3D em grande escala para projeto Jägermeister.",
+    "long_description": "Trabalhamos em parceria com a ArtUp na criação de um cervo em 3D em grande escala para o stand da Jägermeister. O projeto envolveu modelagem personalizada completa, impressão 3D em grande escala e pintura artística personalizada, resultando em uma peça de extrema qualidade que foi destaque no Cabana Club na Praia do Rosa.",
+    "order": 2
   }
 ]
