@@ -54,7 +54,12 @@ def generate_json_structure(base_url, root_dir, ignore_patterns):
 
 
 def main():
-    base_url = "https://vstahelin.github.io/toca-geek-statics"
+    # URL base - sempre usa o GitHub Pages original
+    # Os estáticos são servidos em: https://vstahelin.github.io/toca-geek-statics
+    base_url = os.getenv(
+        "STATICS_BASE_URL", 
+        "https://vstahelin.github.io/toca-geek-statics"
+    )
     root_dir = Path(__file__).resolve().parent.parent
     ignore_patterns = load_mapignore(root_dir)
 
