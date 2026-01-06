@@ -21,7 +21,14 @@
         "is_primary": false
       }
     ],
-    "tags": ["grande escala", "modelagem 3D", "pintura artística", "ativação de marca", "Jägermeister", "ArtUp"],
+    "tags": [
+      "grande escala",
+      "modelagem 3D",
+      "pintura artística",
+      "ativação de marca",
+      "Jägermeister",
+      "ArtUp"
+    ],
     "date": "2024-12-01",
     "is_highlighted": true,
     "instagram_url": "https://www.instagram.com/p/DTArqtjEfKP/"
@@ -94,7 +101,7 @@
     ],
     "tags": ["cosplay", "props", "capacete", "PLA"],
     "date": "2024-02-01",
-    "is_highlighted": true,
+    "is_highlighted": false,
     "instagram_url": "https://www.instagram.com/tocageekoficial/"
   },
   {
