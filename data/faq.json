@@ -43,5 +43,10 @@
     "id": 9,
     "question": "Vocês entregam para todo o Brasil? A peça chega segura?",
     "answer": "**Sim!** Enviamos para **todo o Brasil** com total segurança:\n• **Embalagens de alta proteção**\n• **Múltiplas camadas** de amortecimento\n• **Seguro** em todos os envios\n• **Código de rastreio** para acompanhamento em tempo real\nGarantimos que sua peça chegue em **perfeito estado**!"
+  },
+  {
+    "id": 10,
+    "question": "O que são serviços Premium?",
+    "answer": "Serviços **Premium** são aqueles que possuem um **custo maior agregado** devido à complexidade técnica, tempo de trabalho especializado ou recursos adicionais envolvidos.\n\nExemplos incluem:\n\n• **Modelagem 3D Personalizada**: Requer modeladores especializados e tempo dedicado para criar modelos do zero\n• Serviços que envolvem **múltiplas iterações** e refinamentos\n• Projetos com **prazos mais apertados** ou **alta complexidade técnica**\n\nO valor premium reflete o **trabalho especializado** e a **qualidade superior** entregue nesses serviços."
   }
 ]
