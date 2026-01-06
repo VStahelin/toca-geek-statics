@@ -24,6 +24,7 @@
     },
     "data": {
         "servicos.json": "https://vstahelin.github.io/toca-geek-statics/data/servicos.json",
+        "faq.json": "https://vstahelin.github.io/toca-geek-statics/data/faq.json",
         "galeria.json": "https://vstahelin.github.io/toca-geek-statics/data/galeria.json",
         "site_map.json": "https://vstahelin.github.io/toca-geek-statics/data/site_map.json",
         "footer.json": "https://vstahelin.github.io/toca-geek-statics/data/footer.json",
