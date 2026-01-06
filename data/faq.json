@@ -2,46 +2,46 @@
   {
     "id": 1,
     "question": "Quais materiais e cores vocês utilizam?",
-    "answer": "Trabalhamos com uma **vasta gama de materiais** para atender qualquer necessidade:\n\n• **PLA, PETG, ABS** - Termoplásticos versáteis\n• **Flexíveis/TPU** - Para peças elásticas\n• **Wood e Silk** - Efeitos especiais\n• **Resina** - Altíssima resolução\n\n**Diferencial:** Oferecemos **Impressão Multicolor**, permitindo peças com várias cores prontas diretamente da máquina, eliminando a necessidade de pintura em muitos casos e garantindo um acabamento impecável e vibrante."
+    "answer": "Trabalhamos com uma **vasta gama de materiais** para atender qualquer necessidade:\n• **PLA, PETG, ABS** - Termoplásticos versáteis\n• **Flexíveis/TPU** - Para peças elásticas\n• **Wood e Silk** - Efeitos especiais\n• **Resina** - Altíssima resolução\n**Diferencial:** Oferecemos **Impressão Multicolor**, permitindo peças com várias cores prontas diretamente da máquina, eliminando a necessidade de pintura em muitos casos e garantindo um acabamento impecável e vibrante."
   },
   {
     "id": 2,
     "question": "Como funciona o passo a passo do meu pedido?",
-    "answer": "Nosso processo é dividido em **8 etapas** para sua segurança:\n\n1. **Contato inicial** - Você nos apresenta sua ideia\n2. **Validação de viabilidade técnica** - Analisamos a possibilidade\n3. **Envio do orçamento** - Proposta detalhada\n4. **Pagamento de sinal (50%)** - Para início da produção\n5. **Refinamento do projeto** - Acompanhamento personalizado\n6. **Aprovação final** - Você aprova o modelo digital\n7. **Impressão 3D** - Produção da peça\n8. **Acabamento** - Lixamento e pintura (se contratado)"
+    "answer": "Nosso processo é dividido em **8 etapas** para sua segurança:\n1. **Contato inicial** - Você nos apresenta sua ideia\n2. **Validação de viabilidade técnica** - Analisamos a possibilidade\n3. **Envio do orçamento** - Proposta detalhada\n4. **Pagamento de sinal (50%)** - Para início da produção\n5. **Refinamento do projeto** - Acompanhamento personalizado\n6. **Aprovação final** - Você aprova o modelo digital\n7. **Impressão 3D** - Produção da peça\n8. **Acabamento** - Lixamento e pintura (se contratado)"
   },
   {
     "id": 3,
     "question": "Qual a diferença entre a impressão em PLA e em Resina?",
-    "answer": "**PLA** (Termoplástico):\n• Ideal para peças **maiores**\n• **Resistente** e durável\n• Suporta **impressão multicolor**\n• Ótimo custo-benefício\n\n**Resina**:\n• **Altíssima resolução** (escala micrométrica)\n• Detalhes **minuciosos e imperceptíveis**\n• Perfeita para **miniaturas de RPG** e **colecionáveis**\n• Camadas praticamente invisíveis"
+    "answer": "**PLA** (Termoplástico):\n• Ideal para peças **maiores**\n• **Resistente** e durável\n• Suporta **impressão multicolor**\n• Ótimo custo-benefício\n**Resina**:\n• **Altíssima resolução** (escala micrométrica)\n• Detalhes **minuciosos e imperceptíveis**\n• Perfeita para **miniaturas de RPG** e **colecionáveis**\n• Camadas praticamente invisíveis"
   },
   {
     "id": 4,
     "question": "Quanto tempo demora para finalizar um projeto?",
-    "answer": "O prazo varia conforme a **complexidade do projeto**:\n\n• **Projetos simples**: 3 a 5 dias úteis\n• **Com modelagem personalizada**: 7 a 15 dias úteis\n• **Com acabamento artístico manual**: 7 a 15 dias úteis\n\nO **cronograma exato** é definido na etapa de orçamento, sempre respeitando os prazos acordados."
+    "answer": "O prazo varia conforme a **complexidade do projeto**:\n• **Projetos simples**: 3 a 5 dias úteis\n• **Com modelagem personalizada**: 7 a 15 dias úteis\n• **Com acabamento artístico manual**: 15 a 40 dias úteis\nO **cronograma exato** é definido na etapa de orçamento, sempre respeitando os prazos acordados."
   },
   {
     "id": 5,
     "question": "Vocês fazem modelagem 3D do zero?",
-    "answer": "**Sim!** Nossa equipe de **modeladores profissionais** transforma sua ideia em um projeto 3D completo.\n\n**Como funciona:**\n• Você nos apresenta sua ideia ou referências\n• Criamos o modelo 3D do zero\n• Você **acompanha o processo** de refinamento\n• Só iniciamos a impressão após sua **aprovação total** do modelo\n\nTrabalhamos em conjunto até o resultado perfeito!"
+    "answer": "**Sim!** Nossa equipe de **modeladores profissionais** transforma sua ideia em um projeto 3D completo.\n**Como funciona:**\n• Você nos apresenta sua ideia ou referências\n• Criamos o modelo 3D do zero ou a partir de uma referencia ou arquivo STL\n• Você **acompanha o processo** de refinamento\n• Só iniciamos a impressão após sua **aprovação total** do modelo\nTrabalhamos em conjunto até o resultado perfeito!"
   },
   {
     "id": 6,
     "question": "As peças são resistentes a sol e calor?",
-    "answer": "Depende do **material escolhido**:\n\n• **PLA**: Excelente para uso **interno e decorativo**\n• **PETG ou ABS**: Recomendados para:\n  - Peças expostas ao **sol**\n  - Uso dentro de **veículos**\n  - Aplicações com **esforço mecânico**\n\nAnalisamos a **necessidade de uso** na etapa de viabilidade técnica e recomendamos o material ideal para cada caso."
+    "answer": "Depende do **material escolhido**:\n• **PLA**: Excelente para uso **interno e decorativo**\n• **PETG ou ABS**: Recomendados para:\n  - Peças expostas ao **sol**\n  - Uso dentro de **veículos**\n  - Aplicações com **esforço mecânico**\nAnalisamos a **necessidade de uso** na etapa de viabilidade técnica e recomendamos o material ideal para cada caso."
   },
   {
     "id": 7,
     "question": "Como é calculado o valor do projeto?",
-    "answer": "O orçamento considera vários fatores:\n\n• **Tempo de impressão**\n• **Volume de material** utilizado\n• **Complexidade da modelagem** (se necessário)\n• **Nível de pós-processamento** solicitado\n\n**Forma de pagamento:**\n• **50% de entrada** - Garante sua reserva na fila de produção\n• **50% restantes** - Na entrega/envio\n\nSempre transparente e sem surpresas!"
+    "answer": "O orçamento considera vários fatores:\n• **Tempo de impressão**\n• **Volume de material** utilizado\n• **Complexidade da modelagem** (se necessário)\n• **Nível de pós-processamento** solicitado\n**Forma de pagamento:**\n• **50% de entrada** - Garante sua reserva na fila de produção\n• **50% restantes** - Na entrega/envio\nSempre transparente e sem surpresas!"
   },
   {
     "id": 8,
     "question": "Como solicito um orçamento?",
-    "answer": "É muito simples! Basta nos chamar:\n\n• **WhatsApp** ou **E-mail**\n• Envie sua **ideia**, **referências** ou o **arquivo** (.STL/.OBJ) se já possuir\n\n**Prazo de resposta:**\nEm até **24h úteis**, realizamos a validação técnica e enviamos a **proposta detalhada** com todos os valores e prazos."
+    "answer": "É muito simples! Basta nos chamar:\n• **WhatsApp** ou **E-mail**\n• Envie sua **ideia**, **referências** ou o **arquivo** (.STL/.OBJ) se já possuir\n**Prazo de resposta:**\nEm até **24h úteis**, realizamos a validação técnica e enviamos a **proposta detalhada** com todos os valores e prazos."
   },
   {
     "id": 9,
     "question": "Vocês entregam para todo o Brasil? A peça chega segura?",
-    "answer": "**Sim!** Enviamos para **todo o Brasil** com total segurança:\n\n• **Embalagens de alta proteção**\n• **Múltiplas camadas** de amortecimento\n• **Seguro** em todos os envios\n• **Código de rastreio** para acompanhamento em tempo real\n\nGarantimos que sua peça chegue em **perfeito estado**!"
+    "answer": "**Sim!** Enviamos para **todo o Brasil** com total segurança:\n• **Embalagens de alta proteção**\n• **Múltiplas camadas** de amortecimento\n• **Seguro** em todos os envios\n• **Código de rastreio** para acompanhamento em tempo real\nGarantimos que sua peça chegue em **perfeito estado**!"
   }
 ]

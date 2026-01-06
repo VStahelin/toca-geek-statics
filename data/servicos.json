@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "order": 2,
+    "order": 5,
     "title": "Colecionáveis & Figuras",
     "description": "Estatuetas de anime, personagens de jogos e figuras personalizadas com acabamento de qualidade museu.",
     "icon": "gamepad",
@@ -33,6 +33,15 @@
     "description": "Logos 3D, placas e displays para marca.",
     "icon": "cube",
     "image": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+    "is_coming_soon": false
+  },
+  {
+    "id": 5,
+    "order": 2,
+    "title": "Modelagem 3D Personalizada",
+    "description": "Modelagem 3D profissional sob medida. Nossos modeladores especializados transformam suas ideias em modelos prontos para impressão.",
+    "icon": "rocket",
+    "image": "",
     "is_coming_soon": false
   }
 ]
