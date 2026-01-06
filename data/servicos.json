@@ -42,6 +42,7 @@
     "description": "Modelagem 3D profissional sob medida. Nossos modeladores especializados transformam suas ideias em modelos prontos para impressão.",
     "icon": "rocket",
     "image": "https://vstahelin.github.io/toca-geek-statics/images/blender.gif",
-    "is_coming_soon": false
+    "is_coming_soon": false,
+    "is_premium": true
   }
 ]
