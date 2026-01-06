@@ -7,21 +7,25 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update-site-map:
     runs-on: ubuntu-latest
-
+    outputs:
+      changed: ${{ steps.check_changes.outputs.changed }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
@@ -35,10 +39,8 @@ jobs:
         id: check_changes
         run: |
           if git diff --quiet data/site_map.json; then
-            echo "site_map.json has not changed."
             echo "changed=false" >> $GITHUB_OUTPUT
           else
-            echo "site_map.json has changed."
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
@@ -48,11 +50,33 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
           git add data/site_map.json
-          git commit -m "Update site_map.json"
+          git commit -m "chore: update site_map.json [skip ci]"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
-  call-deploy-site-source:
+  deploy-site:
     needs: update-site-map
-    uses: ./.github/workflows/deploy-site-source.yml
+    runs-on: ubuntu-latest
+    # Só faz deploy se houve mudanças no site_map ou se há mudanças em arquivos relevantes
+    if: |
+      needs.update-site-map.outputs.changed == 'true' ||
+      contains(github.event.head_commit.modified, 'data/') ||
+      contains(github.event.head_commit.modified, 'images/') ||
+      contains(github.event.head_commit.added, 'data/') ||
+      contains(github.event.head_commit.added, 'images/')
     permissions:
       contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          force_orphan: false
+          cname: false
