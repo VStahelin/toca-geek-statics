@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "title": "Cervo Jägermeister - Escultura em Grande Escala",
+    "category": "Visual",
+    "description": "Escultura icônica em 3D de grande escala do cervo Jägermeister para ativação de marca no Cabana Club - Praia do Rosa. Projeto completo envolvendo modelagem personalizada, impressão 3D em grande formato e pintura artística premium. Realizado em parceria com a ArtUp Comunicação Visual.",
+    "images": [
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/1.jpg",
+        "alt": "Cervo Jägermeister - vista frontal da escultura",
+        "is_primary": true
+      },
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/2.jpg",
+        "alt": "Cervo Jägermeister - detalhes da modelagem e impressão",
+        "is_primary": false
+      },
+      {
+        "url": "https://vstahelin.github.io/toca-geek-statics/images/projetos/jager/3.jpg",
+        "alt": "Cervo Jägermeister - acabamento e pintura artística",
+        "is_primary": false
+      }
+    ],
+    "tags": ["grande escala", "modelagem 3D", "pintura artística", "ativação de marca", "Jägermeister", "ArtUp"],
+    "date": "2024-12-01",
+    "is_highlighted": true,
+    "instagram_url": "https://www.instagram.com/p/DTArqtjEfKP/"
+  },
+  {
+    "id": 2,
     "title": "Figura Anime",
     "category": "Colecionável",
     "description": "Figura personalizada de personagem de anime impressa em alta qualidade. Detalhes incríveis e acabamento profissional.",
@@ -13,7 +40,7 @@
     ],
     "tags": ["anime", "colecionável", "figura", "PLA"],
     "date": "2024-01-15",
-    "is_highlighted": true,
+    "is_highlighted": false,
     "instagram_url": "https://www.instagram.com/p/example1"
   },
   {
@@ -101,7 +128,7 @@
     ],
     "tags": ["colecionável", "mech", "resina", "detalhado"],
     "date": "2024-02-15",
-    "is_highlighted": true,
+    "is_highlighted": false,
     "instagram_url": "https://www.instagram.com/p/example5"
   },
   {
@@ -118,7 +145,7 @@
     ],
     "tags": ["colecionável", "mascote", "capivara", "PLA"],
     "date": "2024-02-20",
-    "is_highlighted": true,
+    "is_highlighted": false,
     "instagram_url": "https://www.instagram.com/p/example6"
   },
   {
