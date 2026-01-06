@@ -18,9 +18,15 @@
         "logo-white.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-white.png",
         "logo-colorful.png": "https://vstahelin.github.io/toca-geek-statics/images/logos/logo-colorful.png"
     },
+    "images/empresas": {
+        ".gitkeep": "https://vstahelin.github.io/toca-geek-statics/images/empresas/.gitkeep",
+        "placeholder-empresa.svg": "https://vstahelin.github.io/toca-geek-statics/images/empresas/placeholder-empresa.svg"
+    },
     "data": {
+        "servicos.json": "https://vstahelin.github.io/toca-geek-statics/data/servicos.json",
         "galeria.json": "https://vstahelin.github.io/toca-geek-statics/data/galeria.json",
         "site_map.json": "https://vstahelin.github.io/toca-geek-statics/data/site_map.json",
-        "footer.json": "https://vstahelin.github.io/toca-geek-statics/data/footer.json"
+        "footer.json": "https://vstahelin.github.io/toca-geek-statics/data/footer.json",
+        "empresas.json": "https://vstahelin.github.io/toca-geek-statics/data/empresas.json"
     }
 }

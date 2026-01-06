@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "order": 1,
+    "order": 2,
     "title": "Colecionáveis & Figuras",
     "description": "Estatuetas de anime, personagens de jogos e figuras personalizadas com acabamento de qualidade museu.",
     "icon": "gamepad",
     "image": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
-    "is_coming_soon": false
+    "is_coming_soon": true
   },
   {
     "id": 2,
-    "order": 2,
+    "order": 3,
     "title": "Props de Cosplay",
     "description": "Capacetes, armas, peças de armadura. Dê vida aos seus personagens favoritos.",
     "icon": "sword",
@@ -19,16 +19,16 @@
   },
   {
     "id": 3,
-    "order": 3,
+    "order": 4,
     "title": "Peças de Engenharia",
     "description": "Protótipos de precisão e componentes funcionais para seus projetos.",
     "icon": "gear",
     "image": "",
-    "is_coming_soon": false
+    "is_coming_soon": true
   },
   {
     "id": 4,
-    "order": 4,
+    "order": 1,
     "title": "Comunicação Visual",
     "description": "Logos 3D, placas e displays para marca.",
     "icon": "cube",
@@ -36,4 +36,3 @@
     "is_coming_soon": false
   }
 ]
-
