@@ -17,12 +17,12 @@
   {
     "id": 4,
     "question": "Quanto tempo demora para finalizar um projeto?",
-    "answer": "O prazo varia conforme a **complexidade do projeto**:\n• **Projetos simples**: 3 a 5 dias úteis\n• **Com modelagem personalizada**: 7 a 15 dias úteis\n• **Com acabamento artístico manual**: 7 a 15 dias úteis\nO **cronograma exato** é definido na etapa de orçamento, sempre respeitando os prazos acordados."
+    "answer": "O prazo varia conforme a **complexidade do projeto**:\n• **Projetos simples**: 3 a 5 dias úteis\n• **Com modelagem personalizada**: 7 a 15 dias úteis\n• **Com acabamento artístico manual**: 15 a 40 dias úteis\nO **cronograma exato** é definido na etapa de orçamento, sempre respeitando os prazos acordados."
   },
   {
     "id": 5,
     "question": "Vocês fazem modelagem 3D do zero?",
-    "answer": "**Sim!** Nossa equipe de **modeladores profissionais** transforma sua ideia em um projeto 3D completo.\n**Como funciona:**\n• Você nos apresenta sua ideia ou referências\n• Criamos o modelo 3D do zero\n• Você **acompanha o processo** de refinamento\n• Só iniciamos a impressão após sua **aprovação total** do modelo\nTrabalhamos em conjunto até o resultado perfeito!"
+    "answer": "**Sim!** Nossa equipe de **modeladores profissionais** transforma sua ideia em um projeto 3D completo.\n**Como funciona:**\n• Você nos apresenta sua ideia ou referências\n• Criamos o modelo 3D do zero ou a partir de uma referencia ou arquivo STL\n• Você **acompanha o processo** de refinamento\n• Só iniciamos a impressão após sua **aprovação total** do modelo\nTrabalhamos em conjunto até o resultado perfeito!"
   },
   {
     "id": 6,

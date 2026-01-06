@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "order": 2,
+    "order": 5,
     "title": "Colecionáveis & Figuras",
     "description": "Estatuetas de anime, personagens de jogos e figuras personalizadas com acabamento de qualidade museu.",
     "icon": "gamepad",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "order": 5,
+    "order": 2,
     "title": "Modelagem 3D Personalizada",
     "description": "Modelagem 3D profissional sob medida. Nossos modeladores especializados transformam suas ideias em modelos prontos para impressão.",
     "icon": "rocket",
