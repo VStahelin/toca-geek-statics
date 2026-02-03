@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Figura Anime - Personagem Personalizado",
+    "description": "Figura personalizada de personagem de anime impressa em alta qualidade. Detalhes incríveis e acabamento profissional.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
+    "image_alt": "Figura anime frontal",
+    "price": "R$ 89,90",
+    "category": "Colecionável",
+    "tags": ["anime", "figura", "PLA"],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-exemplo"
+  },
+  {
+    "id": 2,
+    "title": "Miniatura Dragão para RPG",
+    "description": "Miniatura de dragão para jogos de RPG de mesa. Impressa em resina com detalhes impressionantes.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
+    "image_alt": "Miniatura dragão",
+    "price": "R$ 45,00",
+    "category": "RPG",
+    "tags": ["RPG", "miniatura", "dragão", "resina"],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
+  },
+  {
+    "id": 3,
+    "title": "Estatueta Mech - Resina",
+    "description": "Estatueta detalhada de mecha impressa em resina. Acabamento profissional.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
+    "image_alt": "Estatueta mech",
+    "price": "R$ 120,00",
+    "category": "Colecionável",
+    "tags": ["colecionável", "mech", "resina"],
+    "shoppe_url": "",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-exemplo-mech"
+  }
+]
