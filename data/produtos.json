@@ -2,37 +2,336 @@
   {
     "id": 1,
     "title": "Figura Anime - Personagem Personalizado",
-    "description": "Figura personalizada de personagem de anime impressa em alta qualidade. Detalhes incríveis e acabamento profissional.",
+    "description": "Figura personalizada de personagem de anime impressa em alta qualidade. Detalhes incríveis e acabamento profissional. Ideal para prateleira ou mesa.",
     "image_url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
     "image_alt": "Figura anime frontal",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Figura anime frontal" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Detalhe da base" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png", "alt": "Comparativo de tamanho" }
+    ],
     "price": "R$ 89,90",
     "category": "Colecionável",
-    "tags": ["anime", "figura", "PLA"],
+    "tags": ["anime", "figura", "PLA", "personalizado"],
+    "label": "Destaque",
+    "colors": ["#1a1a1a", "#f5f5f5", "#3b82f6", "#ef4444"],
+    "variations": [
+      { "type": "Tamanho", "options": ["10cm", "15cm", "20cm"] },
+      { "type": "Material", "options": ["PLA", "PETG", "Resina"] }
+    ],
     "shoppe_url": "https://shopee.com.br/tocageek",
     "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-exemplo"
   },
   {
     "id": 2,
     "title": "Miniatura Dragão para RPG",
-    "description": "Miniatura de dragão para jogos de RPG de mesa. Impressa em resina com detalhes impressionantes.",
+    "description": "Miniatura de dragão para jogos de RPG de mesa. Impressa em resina com detalhes impressionantes. Base inclusa.",
     "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
     "image_alt": "Miniatura dragão",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Miniatura dragão vista frontal" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Detalhe das asas" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Escala com referência" }
+    ],
     "price": "R$ 45,00",
     "category": "RPG",
     "tags": ["RPG", "miniatura", "dragão", "resina"],
+    "label": "Novo",
+    "colors": ["verde", "vermelho", "preto", "#92400e"],
+    "variations": [
+      { "type": "Escala", "options": ["28mm", "32mm", "75mm"] },
+      { "type": "Acabamento", "options": ["Cru", "Pintado básico", "Pintado premium"] }
+    ],
     "shoppe_url": "https://shopee.com.br/tocageek",
     "mercado_livre_url": ""
   },
   {
     "id": 3,
     "title": "Estatueta Mech - Resina",
-    "description": "Estatueta detalhada de mecha impressa em resina. Acabamento profissional.",
+    "description": "Estatueta detalhada de mecha impressa em resina. Acabamento profissional. Perfeita para colecionadores.",
     "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
     "image_alt": "Estatueta mech",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Mech frontal" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png", "alt": "Detalhe do cockpit" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Vista lateral" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Em prateleira" }
+    ],
     "price": "R$ 120,00",
     "category": "Colecionável",
-    "tags": ["colecionável", "mech", "resina"],
+    "tags": ["colecionável", "mech", "resina", "anime"],
+    "colors": ["cinza", "#1a1a1a", "#3b82f6", "#ef4444"],
+    "variations": [
+      { "type": "Tamanho", "options": ["15cm", "25cm"] },
+      { "type": "Cor base", "options": ["Cinza militar", "Preto", "Azul metálico"] }
+    ],
     "shoppe_url": "",
     "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-exemplo-mech"
+  },
+  {
+    "id": 4,
+    "title": "Capacete Cosplay - Kit Montagem",
+    "description": "Kit em PLA para montagem de capacete cosplay. Peças numeradas e suporte incluso. Acabamento com primer e tinta por conta do cliente.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png",
+    "image_alt": "Capacete cosplay",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png", "alt": "Capacete montado" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Peças do kit" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Detalhe interno" }
+    ],
+    "price": "R$ 199,90",
+    "category": "Cosplay",
+    "tags": ["cosplay", "capacete", "PLA", "kit", "montagem"],
+    "label": "Promoção",
+    "colors": ["branco", "preto", "cinza"],
+    "variations": [
+      { "type": "Tamanho", "options": ["P (54-56cm)", "M (56-58cm)", "G (58-60cm)"] },
+      { "type": "Cor do filamento", "options": ["Branco", "Preto", "Cinza"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-helmet"
+  },
+  {
+    "id": 5,
+    "title": "Logo 3D - Decoração Escritório",
+    "description": "Logo ou marca em 3D para decoração de escritório ou evento. Suporte para parede ou mesa. Personalizável.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+    "image_alt": "Logo 3D decorativo",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png", "alt": "Logo 3D" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Na parede" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png", "alt": "Tamanhos" }
+    ],
+    "price": "R$ 65,00",
+    "category": "Decoração",
+    "tags": ["decoração", "logo", "PLA", "escritório", "personalizado"],
+    "colors": ["#1a1a1a", "#f5f5f5", "#EE4D2D", "#3b82f6", "#22c55e"],
+    "variations": [
+      { "type": "Tamanho", "options": ["Pequeno (10cm)", "Médio (20cm)", "Grande (30cm)"] },
+      { "type": "Cor", "options": ["Preto", "Branco", "Vermelho", "Azul", "Verde"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
+  },
+  {
+    "id": 6,
+    "title": "Mascote Capivara - Porta-treco",
+    "description": "Capivara fofa em 3D que funciona como porta-treco ou decoração. Impressa em PLA, várias cores.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png",
+    "image_alt": "Capivara mascote",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png", "alt": "Capivara frontal" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Lateral" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Uso como porta-treco" }
+    ],
+    "price": "R$ 38,00",
+    "category": "Decoração",
+    "tags": ["decoração", "capivara", "PLA", "porta-treco", "fofo"],
+    "label": "Novo",
+    "colors": ["marrom", "#22c55e", "#3b82f6", "rosa", "amarelo"],
+    "variations": [
+      { "type": "Tamanho", "options": ["Mini (5cm)", "Standard (10cm)", "Grande (15cm)"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-capybara"
+  },
+  {
+    "id": 7,
+    "title": "Colecionáveis - Set Temático",
+    "description": "Set de colecionáveis temáticos para prateleira. Múltiplos personagens ou temas. Consulte opções.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
+    "image_alt": "Set colecionáveis",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png", "alt": "Set completo" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Detalhe figura 1" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Detalhe figura 2" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Detalhe figura 3" }
+    ],
+    "price": "R$ 249,90",
+    "category": "Colecionável",
+    "tags": ["colecionável", "set", "PLA", "resina", "temático"],
+    "label": "Destaque",
+    "colors": ["#1a1a1a", "#f5f5f5", "#a855f7"],
+    "variations": [
+      { "type": "Quantidade de peças", "options": ["3 peças", "5 peças", "10 peças"] },
+      { "type": "Material", "options": ["PLA", "Resina"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-set"
+  },
+  {
+    "id": 8,
+    "title": "Suporte para Celular - Gaming",
+    "description": "Suporte ergonômico para celular em tema gamer. Ajustável, não risca o aparelho. PLA resistente.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png",
+    "image_alt": "Suporte celular gaming",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Suporte em uso" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png", "alt": "Vista lateral" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Detalhe da base" }
+    ],
+    "price": "R$ 32,00",
+    "category": "Utilitário",
+    "tags": ["celular", "suporte", "gamer", "PLA", "organização"],
+    "colors": ["preto", "vermelho", "azul", "roxo"],
+    "variations": [
+      { "type": "Cor", "options": ["Preto", "Vermelho", "Azul", "Roxo"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
+  },
+  {
+    "id": 9,
+    "title": "Dado RPG - Set Resina Premium",
+    "description": "Set de dados para RPG em resina, números bem legíveis. Acabamento fosco ou brilho. Presente ideal.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
+    "image_alt": "Dados RPG resina",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Set de dados" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Detalhe d20" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Caixa inclusa" }
+    ],
+    "price": "R$ 78,00",
+    "category": "RPG",
+    "tags": ["RPG", "dado", "resina", "d20", "presente"],
+    "label": "Novo",
+    "colors": ["#a855f7", "#1a1a1a", "#22c55e", "vermelho", "#3b82f6"],
+    "variations": [
+      { "type": "Cor", "options": ["Roxo", "Preto", "Verde", "Vermelho", "Azul"] },
+      { "type": "Acabamento", "options": ["Fosco", "Brilho", "Metalizado"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-dados"
+  },
+  {
+    "id": 10,
+    "title": "Blender / Agitador - Caneca Geek",
+    "description": "Agitador em formato de personagem ou objeto geek para canecas. Não derrete em bebida quente. PLA food-safe opcional.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/blender.gif",
+    "image_alt": "Agitador caneca",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/blender.gif", "alt": "Agitador em uso" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Modelos disponíveis" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png", "alt": "Detalhe" }
+    ],
+    "price": "R$ 22,00",
+    "category": "Utilitário",
+    "tags": ["caneca", "agitador", "geek", "PLA", "presente"],
+    "colors": ["#ef4444", "#3b82f6", "#22c55e", "preto", "branco"],
+    "variations": [
+      { "type": "Modelo", "options": ["Espada", "Varinha", "Foguete", "Cranio"] },
+      { "type": "Cor", "options": ["Vermelho", "Azul", "Verde", "Preto", "Branco"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
+  },
+  {
+    "id": 11,
+    "title": "Organizador de Cabos - Mesa",
+    "description": "Organizador de cabos para mesa em formato minimalista ou temático. Mantém fios em ordem.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png",
+    "image_alt": "Organizador cabos",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png", "alt": "Organizador na mesa" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png", "alt": "Vista superior" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Cores" }
+    ],
+    "price": "R$ 28,00",
+    "category": "Utilitário",
+    "tags": ["organização", "cabos", "mesa", "PLA", "escritório"],
+    "colors": ["preto", "branco", "cinza", "#3b82f6"],
+    "variations": [
+      { "type": "Cor", "options": ["Preto", "Branco", "Cinza", "Azul"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-organizador"
+  },
+  {
+    "id": 12,
+    "title": "Miniatura Orc - RPG 28mm",
+    "description": "Miniatura de orc para RPG 28mm. Resina, detalhes nítidos. Ideal para D&D e similares.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png",
+    "image_alt": "Miniatura orc",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-dragon.png", "alt": "Orc frontal" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Lateral" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Com base" }
+    ],
+    "price": "R$ 35,00",
+    "category": "RPG",
+    "tags": ["RPG", "miniatura", "orc", "28mm", "resina"],
+    "colors": ["verde", "marrom", "#1a1a1a"],
+    "variations": [
+      { "type": "Acabamento", "options": ["Cru", "Pintado"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
+  },
+  {
+    "id": 13,
+    "title": "Porta-retrato 3D - Geek",
+    "description": "Porta-retrato em formato de escudo, livro ou tema geek. Abertura padrão 10x15cm.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png",
+    "image_alt": "Porta-retrato 3D",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/service-collectibles.png", "alt": "Porta-retrato" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Com foto" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png", "alt": "Modelos" }
+    ],
+    "price": "R$ 42,00",
+    "category": "Decoração",
+    "tags": ["decoração", "porta-retrato", "geek", "PLA"],
+    "colors": ["preto", "branco", "marrom", "#a855f7"],
+    "variations": [
+      { "type": "Modelo", "options": ["Escudo", "Livro", "Nave", "Coração"] },
+      { "type": "Cor", "options": ["Preto", "Branco", "Marrom", "Roxo"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
+  },
+  {
+    "id": 14,
+    "title": "Suporte para Fone de Ouvido",
+    "description": "Suporte para fone de ouvido em formato de personagem ou base gamer. Protege e organiza.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png",
+    "image_alt": "Suporte fone",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-mech.png", "alt": "Suporte com fone" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-helmet.png", "alt": "Vista lateral" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Cores" }
+    ],
+    "price": "R$ 48,00",
+    "category": "Utilitário",
+    "tags": ["fone", "suporte", "gamer", "PLA", "organização"],
+    "colors": ["preto", "vermelho", "azul", "roxo", "verde"],
+    "variations": [
+      { "type": "Modelo", "options": ["Base simples", "Personagem", "Logo gamer"] },
+      { "type": "Cor", "options": ["Preto", "Vermelho", "Azul", "Roxo", "Verde"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": "https://produto.mercadolivre.com.br/MLB-fone"
+  },
+  {
+    "id": 15,
+    "title": "Chaveiro 3D Personalizado",
+    "description": "Chaveiro em 3D com logo, personagem ou texto personalizado. PLA resistente, várias cores.",
+    "image_url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png",
+    "image_alt": "Chaveiro 3D",
+    "images": [
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/gallery-logo.png", "alt": "Chaveiro modelo" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/capybara-mascot.png", "alt": "Outros modelos" },
+      { "url": "https://vstahelin.github.io/toca-geek-statics/images/hero-figure.png", "alt": "Tamanho real" }
+    ],
+    "price": "R$ 18,00",
+    "category": "Utilitário",
+    "tags": ["chaveiro", "personalizado", "PLA", "presente"],
+    "label": "Promoção",
+    "colors": ["#1a1a1a", "#f5f5f5", "#EE4D2D", "#3b82f6", "#22c55e", "rosa"],
+    "variations": [
+      { "type": "Tipo", "options": ["Logo", "Personagem", "Texto", "Emoji"] },
+      { "type": "Cor", "options": ["Preto", "Branco", "Vermelho", "Azul", "Verde", "Rosa"] }
+    ],
+    "shoppe_url": "https://shopee.com.br/tocageek",
+    "mercado_livre_url": ""
   }
 ]
